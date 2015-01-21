@@ -8,7 +8,7 @@ class UsersController extends AppController {
         ));
     }    
     public function login() {
-
+        $this->layout = 'login';
 
         if ($this->Session->check('Auth.User.Id')) {
             $this->redirect(array(                
@@ -60,6 +60,7 @@ class UsersController extends AppController {
 
     }
     public function register($token = null) {
+        $this->layout = 'login';
         if ($token) {
             $tokenUser = $this->Api->resource('User')->request('/viewByToken', array(
                 'data' => array(
@@ -103,7 +104,7 @@ class UsersController extends AppController {
                 if ($e->error == 'InvalidDataException') {
                     $this->Session->setFlash($e->message, array(), 'error');
                 } elseif ($e->error == 'DuplicateEmailException') {
-                    $this->Session->setFlash(__('Look like you already have account at Cyker. Please login'), array(), 'error');
+                    $this->Session->setFlash(__('Look like you already have account at Seo Ranking Tool. Please login'), array(), 'error');
                     $this->redirect(array( 
                         'action' => 'login'));
 

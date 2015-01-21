@@ -2,28 +2,27 @@
 $layout = Inflector::underscore($this->layout);
 $controller = Inflector::underscore($this->request->controller);
 $action = Inflector::underscore($this->request->action);
-/**
-* Include compiled less
-*/
-echo $this->Html->css($layout . '/' . $controller . '/' . $action); 
 
-/**
-* Include global.js, jQuery and angulajs, jQuery UI
-*/
+
+echo $this->Html->css('/lib/bootstrap/dist/css/bootstrap.min');
+echo $this->Html->css('/lib/metisMenu/dist/metisMenu.min');
+echo $this->Html->css('/lib/startbootstrap-sb-admin-2/dist/css/sb-admin-2');
+
+echo $this->Html->css('/lib/font-awesome/css/font-awesome.min');
+
+
 echo $this->Html->script('/lib/jquery/dist/jquery.min');
-echo $this->Html->script('/lib/jquery-ui/jquery-ui.min');
-echo $this->Html->css('/lib/jquery-ui/themes/smoothness/jquery-ui.min');
+echo $this->Html->script('/lib/bootstrap/dist/js/bootstrap.min');
+echo $this->Html->script('/lib/metisMenu/dist/metisMenu.min');
+echo $this->Html->script('/lib/startbootstrap-sb-admin-2/dist/js/sb-admin-2');
+
 echo $this->Html->script('/lib/angular/angular.min');
-
 echo $this->Html->script('/lib/autofill-event/src/autofill-event');
-
 echo $this->Html->script('/lib/jquery-html5-placeholder-shim/jquery.html5-placeholder-shim');
-echo $this->Html->script('/lib/angular-placeholder-shim/angular-placeholder-shim');
-
-echo $this->Html->script('/lib/bpopup/jquery.bpopup.min');
-
+echo $this->Html->script('/lib/angular-placeholder-shim/angular-placeholder-shim'); 
 echo $this->Html->script('global');
 echo $this->Html->script('angular-site');
+
 
 /**
 * Include layout specific js

@@ -1,12 +1,15 @@
 <?php
 App::uses('AppController', 'Controller');
 class HomeController extends AppController {
+    public $layout = 'sb-admin';
     public function index()	{
-        // the langing page should be handled by the CMS on live and stage
-        // for local development we redirect to the list jobs page
-       $this->autoRender = false;
-       
-       echo "HOME";
+       if (!$this->Session->check('Auth.User.Id')) {
+            $this->redirect(array(                
+                'controller' => 'users', 
+                'action' => 'login'
+            ));
+            return;
+       }
     }
     
 }
