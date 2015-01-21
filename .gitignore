@@ -1,0 +1,6 @@
+/frontend/app/tmp
+/frontend/app/Config/site.php
+
+/api/app/tmp
+/api/app/Config/site.php
+/api/app/Config/database.php
