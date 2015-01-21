@@ -1,0 +1,25 @@
+<?php
+
+$config['site_name'] = 'SEO Tool';
+
+$config['site_keyword'] = "keyword1, keyword2";
+
+$config['site_title'] = 'SEO Ranking Tool';
+
+$config['site_description'] = 'SEO Ranking Tool';
+
+$config = array(
+    'debug' => 2, 
+    'ShortUrl' => 'http://localhost/seo-tool/frontend/',    
+    
+     'Api' => array(
+        'scheme' => 'http',
+        'host' => 'localhost',
+        'path' => '/seo-tool/api/'
+     ),      
+     'facebook' => array(
+        'id' => '468112123320023',
+        'secret' => '007b98bc7e4ff6b95ba8974beb35edc3'
+     ),
+     
+);

@@ -1,0 +1,7 @@
+<?php
+  $config['debug'] = 2; //must be set to 0 in production mode in order to send email to other.
+  
+  $config['site_name'] = 'SEO Tool';
+  
+  $config['Url'] = "http://seo.bakhi.vn/frontend/";
+                                                        
