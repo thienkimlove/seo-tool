@@ -1,0 +1,32 @@
+{
+  "name": "Site frontend",
+  "version": "0.0.0",
+  "homepage": "http://default.com",
+  "authors": [
+    "Quan Do <tieumaster@yahoo.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "1.*",
+    "angular": "*",
+    "jquery-ui": "*",
+    "jquery-autosize": "*",
+    "jquery.cookie": "*",
+    "jquery-minicolors": "*",
+    "rogeriopradoj-browser-update": "*",
+    "node-uuid": "*",    
+    "basket.js": "*",
+    "jquery.uniform": "*",
+    "wysihtml5": "*",
+    "jquery-file-upload": "*",
+    "angular-ui-sortable": "git@github.com:angular-ui/ui-sortable.git#angular1.2",
+    "jsonpath": "http://jsonpath.googlecode.com/svn/trunk/src/js/jsonpath.js",
+    "star-rating.zip": "http://jquery-star-rating-plugin.googlecode.com/svn/trunk/star-rating.zip",
+    "ms-Dropdown": "git@github.com:marghoobsuleman/ms-Dropdown.git",
+    "update.js": "http://browser-update.org/update.js",
+    "autofill-event": "~1.0.0",
+    "angular-placeholder-shim": "*",
+    "bpopup": "*",
+    "jquery.sparkline": "*"
+  }
+}

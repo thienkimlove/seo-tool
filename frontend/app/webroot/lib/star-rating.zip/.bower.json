@@ -1,0 +1,13 @@
+{
+  "name": "star-rating.zip",
+  "_cacheHeaders": {
+    "ETag": "\"62//trunk/star-rating.zip\"",
+    "Last-Modified": "Thu, 14 Mar 2013 17:06:44 GMT",
+    "Content-Length": "109983",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:62//trunk",
+  "_source": "http://jquery-star-rating-plugin.googlecode.com/svn/trunk/star-rating.zip",
+  "_target": "*",
+  "_originalSource": "http://jquery-star-rating-plugin.googlecode.com/svn/trunk/star-rating.zip"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ms-Dropdown",
+  "homepage": "https://github.com/marghoobsuleman/ms-Dropdown",
+  "_release": "fb42fef7a6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "fb42fef7a63b9e85e33c3c758d7f233f739d5263"
+  },
+  "_source": "git@github.com:marghoobsuleman/ms-Dropdown.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:marghoobsuleman/ms-Dropdown.git"
+}

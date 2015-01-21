@@ -1,0 +1,18 @@
+{
+	"config": {
+		"vendor-dir": "Vendor",
+	    "preferred-install": "dist"
+	},
+	"scripts": {
+        "post-update-cmd": ["echo [WARNING] Delete all .git dirs", "find . -name .git -exec rm -rf {} \\; || echo"],
+        "post-install-cmd": ["echo [WARNING] Delete all .git dirs", "find . -name .git -exec rm -rf {} \\; || echo"]
+    },
+    "repositories": [
+        
+    ],
+    "require": {
+        "aferrandini/phpqrcode": "*",         
+        "yzalis/crontab": "dev-master",
+        "athari/yalinqo": "dev-master"
+    }
+}

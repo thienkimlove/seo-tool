@@ -1,0 +1,33 @@
+{
+  "name": "rogeriopradoj-browser-update",
+  "description": "Mirror of https://code.google.com/p/browser-update/, http://browserupdate.org/.",
+  "version": "0.0.2",
+  "keywords": [
+    "browser",
+    "update",
+    "browser update"
+  ],
+  "license": "MIT",
+  "main": "update.js",
+  "ignore": [
+    "anderes/*",
+    "lang/*",
+    "lib/*",
+    "scripts/*",
+    "**/*.htaccess",
+    "**/*.css",
+    "**/*.php",
+    "**/*.html",
+    "base.js"
+  ],
+  "homepage": "https://github.com/rogeriopradoj/browser-update",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "178e90139f20fce135715ec994672a8449cd1300"
+  },
+  "_source": "git://github.com/rogeriopradoj/browser-update.git",
+  "_target": "*",
+  "_originalSource": "rogeriopradoj-browser-update"
+}

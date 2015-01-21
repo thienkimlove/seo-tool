@@ -1,0 +1,25 @@
+{
+	"config": {
+		"vendor-dir": "Vendor",
+	    "preferred-install": "dist"
+	},
+	"scripts": {
+        "post-update-cmd": ["echo [WARNING] Delete all .git dirs", "find . -name .git -exec rm -rf {} \\; || echo"],
+        "post-install-cmd": ["echo [WARNING] Delete all .git dirs", "find . -name .git -exec rm -rf {} \\; || echo"]
+    },
+    "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "paypal/rest-api-sdk-php" : "0.5.*"
+    },
+    "require": {       
+        "leafo/lessphp": "*",
+        "josegonzalez/cakephp-sanction": "*" ,
+        "phpoffice/phpexcel": "*",
+        "aws/aws-sdk-php": "*",
+        "mobiledetect/mobiledetectlib": "*",
+        "athari/yalinqo": "dev-master",
+        "fergusean/nusoap": "dev-master"
+    }
+}

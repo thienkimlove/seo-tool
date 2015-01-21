@@ -1,0 +1,14 @@
+{
+  "name": "update.js",
+  "_cacheHeaders": {
+    "ETag": "\"22c93-4012-5055b8dd8a26b\"",
+    "Last-Modified": "Tue, 14 Oct 2014 05:47:43 GMT",
+    "Content-Length": "16402",
+    "Content-Type": "application/x-javascript; charset=utf-8"
+  },
+  "_release": "e-tag:22c93-401",
+  "main": "index.js",
+  "_source": "http://browser-update.org/update.js",
+  "_target": "*",
+  "_originalSource": "http://browser-update.org/update.js"
+}

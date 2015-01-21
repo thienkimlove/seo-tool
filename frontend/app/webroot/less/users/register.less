@@ -1,0 +1,67 @@
+#content { 
+    .section-register {
+        .box {
+            width:86%;
+            margin:40px 7% 0;
+
+            h3 {
+                width:98%;
+                margin-left:2%;
+                text-align: left;
+                a {
+                    color:#036abc;
+                    &:hover{ .underline; }
+                }
+            }
+
+            .content {
+                .float;
+                margin-top:20px;
+            }
+            .column-one {
+                .float(left, 62%);
+                margin:0 7% 0 2%;
+            }
+            .column-two {
+                .float(left, 25%);
+                position: relative;
+                margin:0 2%;
+            }
+            .or {
+                position: absolute; left:-60px; top:50%;
+                width:40px; height:20px;
+                margin-top:-40px; padding:10px 0;
+                .uppercase;
+                background-color: #dedede;
+                .border_radius(40px);
+                .center;
+                color:#888;
+            }
+            
+            ul.input {
+                li {
+                    .float;
+                    margin-bottom:10px;
+                    label {
+                        .float(left,35%);
+                        .uppercase;
+                        line-height: 32px;
+                    }
+                    input {
+                        .float(left,64%);
+                    }
+                }
+            }
+
+            .term {
+                text-align: right;
+                .bold;
+            }
+
+            .buttons {
+                float:right;
+                margin-top:20px;
+            }
+        }
+    }
+} /* #content */

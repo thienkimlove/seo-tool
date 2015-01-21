@@ -1,0 +1,14 @@
+{
+  "name": "jsonpath",
+  "_cacheHeaders": {
+    "ETag": "\"56//trunk/src/js/jsonpath.js\"",
+    "Last-Modified": "Sun, 30 Mar 2008 18:33:10 GMT",
+    "Content-Length": "4221",
+    "Content-Type": "text/plain"
+  },
+  "_release": "e-tag:56//trunk",
+  "main": "index.js",
+  "_source": "http://jsonpath.googlecode.com/svn/trunk/src/js/jsonpath.js",
+  "_target": "*",
+  "_originalSource": "http://jsonpath.googlecode.com/svn/trunk/src/js/jsonpath.js"
+}
