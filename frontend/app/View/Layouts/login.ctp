@@ -10,6 +10,7 @@
         <meta name="author" content="">
 
         <title><?php echo $this->fetch('title', __(Configure::read('site_title'), true));  ?></title>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <?php 
         echo $this->element('css_and_js');
         echo $this->fetch('css');

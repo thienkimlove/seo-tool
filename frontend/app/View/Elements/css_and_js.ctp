@@ -8,7 +8,7 @@ echo $this->Html->css('/lib/bootstrap/dist/css/bootstrap.min');
 echo $this->Html->css('/lib/metisMenu/dist/metisMenu.min');
 echo $this->Html->css('/lib/startbootstrap-sb-admin-2/dist/css/sb-admin-2');
 echo $this->Html->css('/lib/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min');
-echo $this->Html->css('/lib/font-awesome/css/font-awesome.min');
+
 
 
 echo $this->Html->script('/lib/jquery/dist/jquery.min');
