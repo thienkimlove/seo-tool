@@ -32,6 +32,7 @@
     
     
     Router::mapResources('users');
+    Router::mapResources('contents');
     Router::parseExtensions();
 
 /**

@@ -7,7 +7,7 @@ $action = Inflector::underscore($this->request->action);
 echo $this->Html->css('/lib/bootstrap/dist/css/bootstrap.min');
 echo $this->Html->css('/lib/metisMenu/dist/metisMenu.min');
 echo $this->Html->css('/lib/startbootstrap-sb-admin-2/dist/css/sb-admin-2');
-
+echo $this->Html->css('/lib/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min');
 echo $this->Html->css('/lib/font-awesome/css/font-awesome.min');
 
 
@@ -15,11 +15,16 @@ echo $this->Html->script('/lib/jquery/dist/jquery.min');
 echo $this->Html->script('/lib/bootstrap/dist/js/bootstrap.min');
 echo $this->Html->script('/lib/metisMenu/dist/metisMenu.min');
 echo $this->Html->script('/lib/startbootstrap-sb-admin-2/dist/js/sb-admin-2');
+echo $this->Html->script('/lib/moment/moment');
 
 echo $this->Html->script('/lib/angular/angular.min');
 echo $this->Html->script('/lib/autofill-event/src/autofill-event');
 echo $this->Html->script('/lib/jquery-html5-placeholder-shim/jquery.html5-placeholder-shim');
-echo $this->Html->script('/lib/angular-placeholder-shim/angular-placeholder-shim'); 
+echo $this->Html->script('/lib/angular-placeholder-shim/angular-placeholder-shim');
+
+echo $this->Html->script('/lib/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min');
+
+ 
 echo $this->Html->script('global');
 echo $this->Html->script('angular-site');
 

@@ -35,7 +35,7 @@ class AppController extends Controller {
     
     public $components = array('RequestHandler');
     
-    public $uses = array('User');
+    public $uses = array('User', 'Content');
     
     public function getParam($key = null, $required = true) {
         if ($key === null) {

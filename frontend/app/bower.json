@@ -14,7 +14,7 @@
     "jquery.cookie": "*",
     "jquery-minicolors": "*",
     "rogeriopradoj-browser-update": "*",
-    "node-uuid": "*",    
+    "node-uuid": "*",
     "basket.js": "*",
     "jquery.uniform": "*",
     "wysihtml5": "*",
@@ -27,6 +27,8 @@
     "autofill-event": "~1.0.0",
     "angular-placeholder-shim": "*",
     "bpopup": "*",
-    "jquery.sparkline": "*"
+    "jquery.sparkline": "*",
+    "angular-bootstrap-datetimepicker": "latest",
+    "eonasdan-bootstrap-datetimepicker": "~4.0.0"
   }
 }

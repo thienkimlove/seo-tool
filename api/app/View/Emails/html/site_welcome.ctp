@@ -1,6 +1,6 @@
-<?php echo __('Hello and welcome to VietLancer');?>,    <br /><br />
+<?php echo __('Hello and welcome to SEO Ranking Tool');?>,    <br /><br />
 
 
-<?php echo __('We wish you a lot of success with your VietLancer!');?>  <br /><br />
+<?php echo __('We wish you a lot of success with your SEO Ranking Tool!');?>  <br /><br />
 
-<?php echo __('Your VietLancer Team');?>
+<?php echo __('Your SEO Ranking Tool Team');?>

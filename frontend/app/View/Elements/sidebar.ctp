@@ -39,8 +39,17 @@
                             </div>
                             
                         </li>
-                        <li class="active">
+                        <li <?php echo ($this->request->controller == 'home' && $this->request->action == 'index') ? 'class="active"' : '' ?>>
                             <a href="<?php echo $this->Html->url('/') ?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dashboard fa-fw"></i> Promotion</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dashboard fa-fw"></i> Campaign</a>
+                        </li>
+                        <li <?php echo ($this->request->controller == 'ads' && $this->request->action == 'index') ? 'class="active"' : '' ?>>
+                            <a href="<?php echo $this->Html->url(array('controller' => 'ads', 'action' => 'index')) ?>"><i class="fa fa-dashboard fa-fw"></i> Ads</a>
                         </li>
                        
                     </ul>
